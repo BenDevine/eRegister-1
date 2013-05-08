@@ -13,6 +13,6 @@ class Instructor {
 
     static constraints = {
 	name(nullable: false, blank:false,maxSize:256);
-	staffid(nullable: false, blank:false,maxSize:20);
+	staffId(nullable: false, blank:false,maxSize:20);
     }
 }
